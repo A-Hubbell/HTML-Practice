@@ -1,0 +1,32 @@
+/*Stylesheet to go along with "Practice Webpage.html" */
+
+h3{
+    font-family:Helvetica, Times;
+    background-color: #576D94;
+}
+
+
+#gitButton{
+    border-radius: 5px;
+	border: 2px solid #6495ED;
+	background-color: black;
+	height: 45px;
+	width: 150px;
+	margin: auto;
+	text-align: center;
+}
+
+
+
+span{
+    color:white;
+    font-size: 36px;
+}
+
+div a{
+    text-decoration: none;
+}
+  
+.undline {
+    text-decoration: underline;
+}

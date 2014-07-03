@@ -2,9 +2,8 @@
 <!DOCTYPE html>
 <html>
     <head>
-        
+        <link type="text/css" rel="stylesheet" href="stylesheet.css"/>
         <title>Practice Webpage</title>
-        
     </head>
     
     <body style="background-color:lightgrey">
@@ -15,13 +14,22 @@
             <img src="http://blog.formstack.com/wp-content/uploads/2010/06/html-css.png" align="middle" />
         </a>
         <h2 style="color:orange; font-family:helvetica; text-align: center">HTML Practice</h2>
-        <p style="font-size: 22px;";>
-            This webpage is being used for practing HTML. As more features are learned, it will be updated further. The image of the code snippet is currently not horizontally-centered. I haven't been able to find a good way to do it in HTML, so it will be updated when I learn CSS. Below is a list of what functionality is currently being used on this page.
+        <p style="font-size: 22px;">
+            This webpage is being used for practing HTML. As more features are learned, it will be updated further. The image of the code snippet is currently not horizontally-centered. I haven't been able to find a good way to do it in HTML, so it will be updated using CSS. Below is a list of what functionality is currently being used on this page. Click the button below to navigate to GitHub and see some other cool projects!
         </p>
+        
+  <!--      
+<div style="background-color:black; height:45px; width:150px; margin:auto; text-align:center;"> 
+-->
+        <div id="gitButton">
+            <a href="https://github.com/A-Hubbell">
+            <span>GitHub</span>
+            </a>
+        </div>
         
         <hr>
         
-        <h3>HTML features on this page:</h3>
+        <h3 class="undline">HTML features on this page:</h3>
         <ul>
             <li>Image placement (with hyperlink)</li>
             <li>Background colour
@@ -34,6 +42,7 @@
                 </ol>
             <li>Tables and table styling</li>
             <li>Text hyperlink</li>
+            <li>Styling using CSS</li>
             
         </ul>
         
@@ -43,7 +52,7 @@
         
         <!-- HTML Forms -->
         <hr>
-        <h3>HTML Forms</h3>
+        <h3 class="undline">HTML Forms</h3>
         <form>
             First Name: <input type="text">
             Last Name: <input type="text">
@@ -64,7 +73,7 @@
         
         <!-- Character Entities -->
         <hr>
-        <h3>Useful Character Entities</h2>
+        <h3 class="undline">Useful Character Entities</h2>
         <p>There are a number of "reserved" characters in html such as &lt;, &gt;, &amp; and non-breaking white space. There is a special way to have these characters displayed in your text as opposed to be skipped over or considered as part of tags. HTML also supports some math symbols, greek letters and other "symbols", which are not considered as character entities. Here are a few examples of character entities:</p>
         
         <ul>
@@ -102,6 +111,10 @@
             <tr>
                 <td>June 16, 2014</td>
                 <td>Added "Useful Character Entities" section</td>
+            </tr>
+            <tr>
+                <td>July 3, 2014</td>
+                <td>Implemented CSS and added GitHub button</td>
             </tr>
         </table>
         
